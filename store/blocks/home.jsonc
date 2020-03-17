@@ -1,11 +1,15 @@
 {
   "store.home": {
-    "blocks": ["info-card#button-right", "info-card#button-left", "rich-text#helloWorld"]
+    "blocks": [
+      "rich-text#helloWorld",
+      "info-card#button-right",
+      "info-card#button-left"
+    ]
   },
   "rich-text#helloWorld": {
     "props": {
-      "text": "**Hello, world!**",
-      "textPosition": "RIGHT"
+      "text": "**Hello, IO!**",
+      "textPosition": "CENTER"
     }
   },
   "info-card#button-right": {
